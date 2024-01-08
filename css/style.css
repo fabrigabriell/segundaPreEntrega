@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Title and Picture Index */
+.subTitle {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration:wavy black;
+}
+
+
+.homeUno {
+    background-image: url(../img/flag.png);
+}
+
+
+.homeDos {
+    background-image: url(../img/fondo-1.png);
+}
+/* Title and Picture Index */
+
+/* All Headers */
+header{
+    background-image: url(../img/flag.png);
+    text-align: center;
+    border-bottom: 1px black;
+    padding: 12px 22px;
+}
+/* All Headers */
+
+/* All mains */
+main {  
+    
+    text-align: 15px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* All mains */
+
+/* All H2 */
+h2 {
+    margin: 20px;
+    padding: 20px;
+    text-decoration: underline;
+}
+/* All H2 */
+
+/* All Titles */
+.title {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+/* All Titles */
+
+/* All Nav */
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+/* All Nav */
+
+/* Main logo */
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 35px ;
+}
+/* Main logo */
+
+/* All Footers */
+footer {
+    padding: 2px;
+    border-top: black solid 2px;
+    text-align: center;
+    background-image: url(../img/flag.png);
+    margin-top: auto;
+}
+/* All Footers */
+
+/* Footer Store */
+.footerp {
+    font-size: 15px;
+    padding: 7px;
+    margin: 0px;
+}
+/* Footer Store */
+
+/* Biography Setting */
+.biography {
+    text-decoration: none;
+    background-image: url(../img/scaloni.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.biographyh1 {
+    text-size-adjust: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.biography p h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+
+.biography h2 {
+    text-decoration: underline yellow;
+    margin: 25px;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: yellow;
+}
+/* Biography Setting */
+
+/* Entry Text Setting */
+.Scaloni {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+/* Entry Text Setting */
+
+/* Video Scaloni Setting */
+.videoScaloni {
+    padding: 30px;
+    margin-top: 45px;
+    margin-left: 45px;
+    border-radius: 3rem;
+    width: 1250px;
+    height: 700px;
+}
+/* Video Scaloni Setting */
+
+/* Paragraph Biography */
+.parrafoScaloni {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: #1D93DB;
+}
+/* Paragraph Biography */
+
+/* Index Video */
+.video {
+    padding: 30px;
+    margin-top: 45px;
+    margin-left: 45px;
+    border-radius: 3rem;
+    width: 1250px;
+    height: 700px;
+}
+/* Index Video */
+
+/* Paragraph Index */
+.parrafoIndex {
+    margin: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Paragraph Index */
+
+/* Setting of Statistics */
+.statisticsh1 {
+    text-align: center;
+    text-decoration: none ;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    margin: 20px;
+    font-size: 45px;
+}
+
+
+.statisticksh2 {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 27px;
+    color: white;
+}
+
+
+.statisticsContainer h2 {
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+.statisticsContainer {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.statisticsMain {
+    background-image: url(../img/worldCup.jpeg);
+    background-position: center;
+    
+}
+
+
+.parrafoInicio {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    color: white;
+}
+
+
+.fechas {
+    font-size: 35px;
+    text-decoration: underline white 2px;
+    color: white;
+}
+
+
+.parrafos {
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+
+
+.Fotos {
+    width: 1200px;
+    height: 630px;
+    padding: 30px;
+}
+/* Setting of Statistics */
+
+/* Setting of maps and video */
+iframe {
+    margin: auto;
+    display: block;
+}
+/* Setting of maps and video */
+
+/* Title of Store */
+.storeh1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin: 20px;
+    padding: 20px;
+}
+/* Title of Store */
+
+/* Fondo Main Store */
+.mainStore {
+    background-image: url(../img/store.jpeg);
+    background-repeat: no-repeat;
+}
+/* Fondo Main Store */
+
+/* Subtitle Store */
+.storeh2 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+/* Subtitle Store */
+
+/* store paragraph */
+.storep {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 20px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+}
+/* store paragraph */
+
+/* contact background */
+.mainContact {
+    background-image: url(../img/dibu.jpeg);
+    background-size: cover;
+    margin-bottom: auto;
+}
+/* contact background */
+
+/* Form Settings */
+form {
+    width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 7px;
+    color: #1D93DB;
+}
+
+
+input,
+textarea {
+    text-align: center;
+    display: block;
+    width: 50%;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* Form Settings */
+/* Style Form */
+.proposal {
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: #1D93DB;
+}
+/* Style Form */
