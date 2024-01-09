@@ -5,11 +5,17 @@
 
 /* Title and Picture Index */
 .subTitle {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subTitlep {
+    font-size: 20px;
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
     text-decoration:wavy black;
 }
-
 
 .homeUno {
     background-image: url(../img/flag.png);
@@ -358,3 +364,83 @@ body {
     color: #1D93DB;
 }
 /* Style Form */
+
+/* Media Query Tablet and Mobile */
+@media (max-width:1023px) {
+    /* All Header */
+    .navigation {
+        height: auto;
+        width: auto;
+        flex-direction: row;
+        text-align: center;
+    }
+    /* All Header */
+
+    /* Video Index */
+    .video {
+        height: auto;
+        width: auto;
+        padding: auto;
+        margin: auto;
+    }
+    /* Video Index */
+
+    /* Titles and Subtitles */
+    .title {
+        font-size: 2rem;
+    }
+    .subTitle {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .subTitlep {
+        font-size: 1rem;
+        text-align: left;
+    }
+    /* Titles and Subtitles */
+
+    /* Paragraph Index */
+    .parrafoIndex {
+        font-size: 1rem;
+        text-align: left;
+    }
+    /* Paragraph Index */
+
+    /* Biography Video */
+    .videoScaloni {
+        height: auto;
+        width: auto;
+        padding: auto;
+        margin: auto;
+    }
+    /* Biography Video */
+
+    /* Biography Settings */
+    .subtitleb {
+        font-size: 20px;
+        text-align: left;
+        margin: auto;
+        padding: auto;
+    }
+
+    .Scaloni {
+        font-size: 15px;
+        text-align: left;
+        margin: auto;
+        padding: auto;
+    }
+    
+    .parrafoScaloni {
+        font-size: auto;
+        text-align: justify;
+        margin: auto;
+        padding: auto;
+    }
+    /* Biography Settings */
+
+    /* Footer */
+    footer {
+        flex-direction: row;
+        text-align: center;
+    }
+}
