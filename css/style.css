@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+/* Navbar Settings */
+.navigation {
+    text-align: center;
+    color: white;
+}
+/* Navbar Settings */
+
 /* Title and Picture Index */
 .subTitle {
     font-size: 30px;
@@ -26,15 +33,6 @@
     background-image: url(../img/fondo-1.png);
 }
 /* Title and Picture Index */
-
-/* All Headers */
-header{
-    background-image: url(../img/flag.png);
-    text-align: center;
-    border-bottom: 1px black;
-    padding: 12px 22px;
-}
-/* All Headers */
 
 /* All mains */
 main {  
@@ -379,7 +377,7 @@ body {
     /* Video Index */
     .video {
         height: auto;
-        width: auto;
+        max-width: 100%;
         padding: auto;
         margin: auto;
     }
@@ -409,7 +407,7 @@ body {
     /* Biography Video */
     .videoScaloni {
         height: auto;
-        width: auto;
+        max-width: 100%;
         padding: auto;
         margin: auto;
     }
@@ -438,9 +436,84 @@ body {
     }
     /* Biography Settings */
 
+    /* Statistics Settings */
+    .Fotos {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .statisticksh2 {
+        font-size: 20px;
+    }
+
+    .parrafoInicio {
+        font-size: 14px;
+    }
+
+    .parrafos {
+        font-size: 12px;
+    }
+    /* Statistics Settings */
+
+    /* Store Settings */
+    .storeh2 {
+        font-size: 23px;
+    }
+
+    .storep {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .map {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Store Settings */
+
+    /* Contact Settings */
+
+    .proposal {
+        font-size: 23px;
+    }
+
+    .form {
+        max-width: 100%;
+    }
+
+    .input {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    
+    .textarea {
+        margin-bottom: 10px;
+        max-width: 100%;
+        height: 170px;
+    }
+
+    .label {
+        font-size: 14px;
+        margin-bottom: 5px;
+        height: auto;
+    }
+
+    .button {
+        width: auto;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    /* Contact Settings */
+
     /* Footer */
     footer {
         flex-direction: row;
         text-align: center;
     }
+    /* Footer */
 }
+/* Media Query Tablet and Mobile */
