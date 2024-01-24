@@ -149,6 +149,14 @@ footer {
   padding: 0;
 }
 
+body {
+  cursor: url(../img/pointer1.cur), auto;
+}
+
+a {
+  cursor: url(../img/pointer2.cur), auto;
+}
+
 /* Title and Picture Index */
 .subTitle {
   font-size: 30px;
