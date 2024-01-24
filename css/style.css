@@ -86,14 +86,13 @@
 
 form {
   width: 100%;
-  padding: 0 auto;
+  padding: 0;
   max-width: 600px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0;
 }
 
 label {
@@ -277,7 +276,8 @@ nav ul li {
     margin: auto;
     padding: auto;
   }
-  .Fotos {
+  .fotos {
+    padding: 5px;
     max-width: 100%;
     height: auto;
   }
@@ -300,6 +300,13 @@ nav ul li {
   .map {
     max-width: 100%;
     height: auto;
+  }
+  .mainContact {
+    background-image: url(../img/dibu.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: auto;
   }
   .proposal {
     font-size: 23px;

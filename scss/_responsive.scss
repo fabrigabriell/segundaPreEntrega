@@ -72,7 +72,8 @@
     // Biography Settings //
 
     // Statistics Settings //
-    .Fotos {
+    .fotos {
+        padding: 5px;
         max-width: 100%;
         height: auto;
     }
@@ -108,6 +109,14 @@
     // Store Settings //
 
     // Contact Settings //
+
+    .mainContact {
+        background-image: url(../img/dibu.jpeg);
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        margin-bottom: auto;
+    }
 
     .proposal {
         font-size: 23px;
@@ -146,9 +155,9 @@
 
     // Footer //
     footer {
-        flex-direction: row;
-        text-align: center;
+            flex-direction: row;
+            text-align: center;
     }
-    // Footer //
 }
+    // Footer //
 // Media Query Tablet and Mobile //
