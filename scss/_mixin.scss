@@ -1,0 +1,72 @@
+// Biography Settings
+@mixin scaloniParagraph {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: $text-color2;
+    background-color: yellow;
+}
+
+@mixin biographyH2 {
+    text-decoration: underline solid $text-color2 2px;
+    color: $text-color1;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+}
+// Biography Settings
+
+// Index Settings
+@mixin paragraphSetting {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: $text-color2;
+}
+// Index Settings
+
+// Statistics Settings
+@mixin paragraphStatistics {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    color: $text-color1;
+    background-color: black;
+}
+// Statistics Settings
+
+// Store Settings
+@mixin storeParagraph {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 20px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 25px;
+    color: $text-color1;
+    background-color: black;
+}
+
+@mixin h2Store {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: $text-color1;
+}
+
+@mixin videoScaloni {
+    padding: auto;
+    margin-top: 45px;
+    margin-left: 45px;
+    margin: 25px;
+    border-radius: 3rem;
+    width: 50%;
+    height: 500px;
+}

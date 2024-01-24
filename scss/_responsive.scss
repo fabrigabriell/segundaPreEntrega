@@ -1,0 +1,154 @@
+/* Media Query Tablet and Mobile */
+@media (max-width:1023px) {
+    // All Header //
+    .navigation {
+        height: auto;
+        width: auto;
+        flex-direction: row;
+        text-align: center;
+    }
+    // All Header //
+
+    // Video Index //
+    .video {
+        height: auto;
+        max-width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    // Video Index //
+
+    // Titles and Subtitles //
+    .title {
+        font-size: 2rem;
+    }
+    .subTitle {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .subTitlep {
+        font-size: 1rem;
+        text-align: left;
+    }
+    // Titles and Subtitles //
+
+    // Paragraph Index //
+    .parrafoIndex {
+        font-size: 1rem;
+        text-align: left;
+    }
+    // Paragraph Index //
+
+    // Biography Video //
+    .videoScaloni {
+        height: auto;
+        max-width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    // Biography Video //
+
+    // Biography Settings //
+    .subtitleb {
+        font-size: 20px;
+        text-align: left;
+        margin: auto;
+        padding: auto;
+    }
+
+    .Scaloni {
+        font-size: 15px;
+        text-align: left;
+        margin: auto;
+        padding: auto;
+    }
+    
+    .parrafoScaloni {
+        font-size: auto;
+        text-align: justify;
+        margin: auto;
+        padding: auto;
+    }
+    // Biography Settings //
+
+    // Statistics Settings //
+    .Fotos {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .statisticksh2 {
+        font-size: 20px;
+    }
+
+    .parrafoInicio {
+        font-size: 14px;
+    }
+
+    .parrafos {
+        font-size: 12px;
+    }
+    // Statistics Settings //
+
+    // Store Settings //
+    .storeh2 {
+        font-size: 23px;
+    }
+
+    .storep {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .map {
+        max-width: 100%;
+        height: auto;
+    }
+
+    // Store Settings //
+
+    // Contact Settings //
+
+    .proposal {
+        font-size: 23px;
+    }
+
+    .form {
+        max-width: 100%;
+    }
+
+    .input {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    
+    .textarea {
+        margin-bottom: 10px;
+        max-width: 100%;
+        height: 170px;
+    }
+
+    .label {
+        font-size: 14px;
+        margin-bottom: 5px;
+        height: auto;
+    }
+
+    .button {
+        width: auto;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    // Contact Settings //
+
+    // Footer //
+    footer {
+        flex-direction: row;
+        text-align: center;
+    }
+    // Footer //
+}
+// Media Query Tablet and Mobile //

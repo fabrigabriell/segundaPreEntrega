@@ -1,0 +1,29 @@
+// Title of Store //
+.storeh1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin: 20px;
+    padding: 20px;
+}
+// Title of Store //
+
+// Fondo Main Store //
+.mainStore {
+    background-image: url(../img/store.jpeg);
+    background-repeat: no-repeat;
+}
+// Fondo Main Store //
+
+// Subtitle Store //
+.storeh2 {
+    @include h2Store
+}
+// Subtitle Store //
+
+// store paragraph //
+.storep {
+    @include storeParagraph
+}
+// store paragraph //
+

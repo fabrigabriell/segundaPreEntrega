@@ -1,0 +1,70 @@
+// Setting of Statistics //
+.statisticsh1 {
+    text-align: center;
+    text-decoration: none ;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    margin: 20px;
+    font-size: 45px;
+}
+
+
+.statisticksh2 {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 27px;
+    color: $text-color1;
+}
+
+
+.statisticsContainer h2 {
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+.statisticsContainer {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.statisticsMain {
+    background-image: url(../img/worldCup.jpeg);
+    background-position: center;
+    
+}
+
+
+.parrafoInicio {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    color: $text-color1;
+}
+
+
+.fechas {
+    font-size: 35px;
+    text-decoration: underline $text-color1 2px;
+    color: $text-color1;
+}
+
+
+.parrafos {
+    @include paragraphStatistics
+}
+
+
+.Fotos {
+    width: 1200px;
+    height: 630px;
+    padding: 30px;
+}
+// Setting of Statistics //

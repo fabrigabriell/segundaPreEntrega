@@ -1,0 +1,75 @@
+// Entry Text Setting //
+.Scaloni {
+    font-weight: bold;
+    font-size: 25px;
+    color: $text-color1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.players {
+    font-size: 2rem;
+    font-weight: bold;
+    color: $text-color4;
+    margin-bottom: 5px;
+}
+.paragraphPlayers {
+    font-size: 2em;
+    color: $text-color5;
+    margin-bottom: 15px;
+}
+
+.fotoCarnet {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+      border: 2px solid gold;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+// Entry Text Setting //
+
+// Biography Setting //
+.biography {
+    text-decoration: none;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.biographyh1 {
+    text-size-adjust: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.biography p h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+
+.biography h2 {
+    @include biographyH2
+}
+// Biography Setting //
+
+// Paragraph Biography //
+.parrafoScaloni {
+    @include scaloniParagraph
+}
+// Paragraph Biography //
+
+// Video Scaloni Setting //
+.videoScaloni {
+    @include videoScaloni
+}
+// Video Scaloni Setting //
+
