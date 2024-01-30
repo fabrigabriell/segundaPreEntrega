@@ -22,7 +22,7 @@
     justify-content: space-between;
     margin: 15px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     background-color: $text-color2;
 }
@@ -31,7 +31,7 @@
 // Statistics Settings
 @mixin paragraphStatistics {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1rem;
     text-align: left;
     color: $text-color1;
     background-color: black;

@@ -13,9 +13,11 @@
 }
 
 .paragraphPlayers {
-  font-size: 2em;
+  font-size: 1rem;
   color: #fff;
   margin-bottom: 15px;
+  background-color: black;
+  text-align: left;
 }
 
 .fotoCarnet {
@@ -194,7 +196,7 @@ a {
   justify-content: space-between;
   margin: 15px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1rem;
   font-family: "Roboto", sans-serif;
   background-color: #1D93DB;
 }
@@ -379,7 +381,7 @@ nav ul li {
 }
 
 .statisticsMain {
-  background-image: url(../img/worldCup.jpeg);
+  background-image: url(../img/cup.jpg);
   background-position: center;
 }
 
@@ -400,7 +402,7 @@ nav ul li {
 
 .parrafos {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1rem;
   text-align: left;
   color: white;
   background-color: black;
@@ -452,6 +454,13 @@ nav ul li {
   font-size: 45px;
   font-family: "Roboto", sans-serif;
   color: white;
+}
+
+.titlei {
+  text-align: center;
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  color: black;
 }
 
 h2 {
