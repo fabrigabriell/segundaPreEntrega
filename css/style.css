@@ -123,8 +123,8 @@ body {
 }
 
 .proposal {
-  padding: 25px;
-  margin: 25px;
+  padding: 10px;
+  margin: 10px;
   text-align: center;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
@@ -287,18 +287,18 @@ nav ul li {
     padding: auto;
   }
   .fotos {
-    padding: 5px;
     max-width: 100%;
     height: auto;
+    padding: 30px;
   }
   .statisticksh2 {
     font-size: 20px;
   }
   .parrafoInicio {
-    font-size: 14px;
+    font-size: 12px;
   }
   .parrafos {
-    font-size: 12px;
+    font-size: 0.5rem;
   }
   .storeh2 {
     font-size: 23px;
@@ -402,15 +402,17 @@ nav ul li {
 
 .parrafos {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: left;
   color: white;
   background-color: black;
 }
 
-.Fotos {
-  width: 1200px;
-  height: 630px;
+.fotos {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
   padding: 30px;
 }
 

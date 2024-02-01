@@ -36,7 +36,6 @@
 .statisticsMain {
     background-image: url(../img/cup.jpg);
     background-position: center;
-    
 }
 
 
@@ -62,9 +61,11 @@
 }
 
 
-.Fotos {
-    width: 1200px;
-    height: 630px;
+.fotos {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    margin:0 auto;
     padding: 30px;
 }
 // Setting of Statistics //
