@@ -62,11 +62,11 @@
 }
 
 @mixin videoScaloni {
-    padding: auto;
-    margin-top: 45px;
-    margin-left: 45px;
-    margin: 25px;
-    border-radius: 3rem;
-    width: 50%;
-    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 90vh;
+    padding: 15px;
+    margin: 15px;
 }
